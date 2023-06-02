@@ -11,7 +11,7 @@ public class NumberGenerator {
     public static void playMusic() throws UnsupportedAudioFileException, IOException, LineUnavailableException{
 
         int minimum = 1;
-        int max = 6;
+        int max = 1;
 
         //Generate a random number from 1-5
         System.out.println("Random value in int from " +minimum+ " to " +max+ ":");
