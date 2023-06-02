@@ -35,8 +35,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip1.start();
                 try{
-                    System.out.println("Shutting down the PC after 15 seconds.");
-                    runtime1.exec("shutdown -s -t 15");
+                    System.out.println("Shutting down the PC after 16 seconds.");
+                    runtime1.exec("shutdown -s -t 16");
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
