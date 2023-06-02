@@ -35,8 +35,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip1.start();
                 try{
-                    System.out.println("Shutting down the PC after 16 seconds.");
-                    runtime1.exec("shutdown -s -t 16");
+                    System.out.println("Shutting down the PC after 15 seconds.");
+                    runtime1.exec("shutdown -s -t 15");
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
@@ -57,8 +57,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip2.start();
                 try{
-                    System.out.println("Shutting down the PC after 17 seconds.");
-                    runtime2.exec("shutdown -s -t 17");
+                    System.out.println("Shutting down the PC after 18 seconds.");
+                    runtime2.exec("shutdown -s -t 18"); //17
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
@@ -78,8 +78,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip3.start();
                 try{
-                    System.out.println("Shutting down the PC after 5 seconds.");
-                    runtime3.exec("shutdown -s -t 5");
+                    System.out.println("Shutting down the PC after  seconds.");
+                    runtime3.exec("shutdown -s -t 4");// 3 or 5
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
@@ -99,8 +99,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip4.start();
                 try{
-                    System.out.println("Shutting down the PC after 29 seconds.");
-                    runtime4.exec("shutdown -s -t 29");
+                    System.out.println("Shutting down the PC after 27 seconds.");
+                    runtime4.exec("shutdown -s -t 27");//26
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
@@ -120,8 +120,8 @@ public class NumberGenerator {
             while (response.equals("Z")){
                 clip5.start();
                 try{
-                    System.out.println("Shutting down the PC after 23 seconds.");
-                    runtime5.exec("shutdown -s -t 23");
+                    System.out.println("Shutting down the PC after 21 seconds.");
+                    runtime5.exec("shutdown -s -t 21");//22
                 }catch(IOException e){
                     System.out.println("Exception: " +e);
                 }
